@@ -1,0 +1,16 @@
+{
+    "name": "libraries/common-php-projects-things",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Libraries\\CommonPhpProjectsThings\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Szymon Horbal",
+            "email": "horbalszymon@gmail.com"
+        }
+    ],
+    "require": {}
+}
