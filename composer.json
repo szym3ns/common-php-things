@@ -1,6 +1,9 @@
 {
-    "name": "libraries/common-php-projects-things",
+    "name": "libraries/common-php-things",
     "type": "library",
+    "require": {
+        "php": "^8.4"
+    },
     "autoload": {
         "psr-4": {
             "Libraries\\CommonPhpProjectsThings\\": "src/"
@@ -8,9 +11,8 @@
     },
     "authors": [
         {
-            "name": "Szymon Horbal",
+            "name": "szym3ns",
             "email": "horbalszymon@gmail.com"
         }
-    ],
-    "require": {}
+    ]
 }
