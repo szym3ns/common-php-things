@@ -4,15 +4,28 @@
     "require": {
         "php": "^8.4"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^12.0"
+    },
     "autoload": {
         "psr-4": {
             "Libraries\\CommonPhpProjectsThings\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Libraries\\CommonPhpProjectsThings\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
     },
     "authors": [
         {
             "name": "szym3ns",
             "email": "horbalszymon@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

@@ -1,0 +1,1 @@
+{"version":1,"defects":{"ValueObjects\\DateTest::testCreatesDateTimeFromValidString":7},"times":{"ValueObjects\\DateTest::testCreatesDateTimeFromValidString":0.006,"ValueObjects\\DateTest::testThrowsExceptionOnInvalidDate":0.001,"Unit\\ValueObjects\\DateTest::testCreatesDateTimeFromValidString":0.005,"Unit\\ValueObjects\\DateTest::testThrowsExceptionOnInvalidDate":0.001}}

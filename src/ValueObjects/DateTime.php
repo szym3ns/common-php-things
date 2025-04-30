@@ -27,7 +27,7 @@ class DateTime extends AbstractValueObject
     public static function createFromTimestamp(int $timestamp): self
     {
         return self::createFromPhpDateTime(
-            (new PhpDateTime())->setTimestamp($timestamp)
+            new PhpDateTime()->setTimestamp($timestamp)
         );
     }
 
@@ -45,9 +45,7 @@ class DateTime extends AbstractValueObject
             );
         }
 
-        $this->value =
-            (new PhpDateTime())
-                ->setTimestamp($unixTimeValue);
+        $this->value = new PhpDateTime()->setTimestamp($unixTimeValue);
     }
 
     public function toString(string $format = self::DEFAULT_FORMAT): string
