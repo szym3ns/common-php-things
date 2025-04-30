@@ -2,6 +2,7 @@
     "name": "libraries/common-php-things",
     "description": "Library includes common php things like collections, serializable traits, value objects etc.",
     "type": "library",
+    "license": "proprietary",
     "require": {
         "php": "^8.4"
     },
